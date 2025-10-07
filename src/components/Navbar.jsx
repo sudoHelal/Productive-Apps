@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
+import navBarLogo from '../assets/logo.png'
 
 const Navbar = () => {
     return (
@@ -19,7 +20,11 @@ const Navbar = () => {
                     <li><NavLink to='/installation'>Installation</NavLink></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <div className='flex items-center gap-2'>
+                    <img className='h-[40px]' src={navBarLogo} alt="" />
+                    <Link to='/' className="text-xl bg-gradient-to-r from-indigo-500 to-pink-600
+      bg-clip-text text-transparent font-bold">HERO.OI</Link>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -31,7 +36,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn"> <FaGithub /> Button</a>
+                <Link target='_blank' to='https://github.com/sudoHelal' className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] px-6 text-white" > <FaGithub /> Contribute</Link>
             </div>
         </div>
     );
