@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://picsum.photos/200?1",
+    "title": "TaskFlow",
+    "companyName": "NextGen Apps",
+    "id": 1,
+    "description": "A modern task management app for teams.",
+    "size": 52,
+    "reviews": 450,
+    "ratingAvg": 4.3,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?2",
+    "title": "PhotoSpark",
+    "companyName": "PixelWorks",
+    "id": 2,
+    "description": "AI-powered photo editing tool with filters and effects.",
+    "size": 87,
+    "reviews": 980,
+    "ratingAvg": 4.6,
+    "downloads": 56000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?3",
+    "title": "NoteEase",
+    "companyName": "Mindful Labs",
+    "id": 3,
+    "description": "Simple note-taking with cloud sync.",
+    "size": 34,
+    "reviews": 670,
+    "ratingAvg": 4.1,
+    "downloads": 23000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?4",
+    "title": "FitTrack",
+    "companyName": "HealthFirst",
+    "id": 4,
+    "description": "Fitness and workout tracker with diet plans.",
+    "size": 75,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": 91000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 810 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?5",
+    "title": "BudgetWise",
+    "companyName": "FinancePro",
+    "id": 5,
+    "description": "Expense manager with insights and graphs.",
+    "size": 49,
+    "reviews": 540,
+    "ratingAvg": 4.0,
+    "downloads": 17500,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?6",
+    "title": "LangLearn",
+    "companyName": "EduTech",
+    "id": 6,
+    "description": "Learn new languages with AI tutors.",
+    "size": 101,
+    "reviews": 2000,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 1140 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?7",
+    "title": "CookBook+",
+    "companyName": "KitchenAI",
+    "id": 7,
+    "description": "Recipe finder with smart meal planning.",
+    "size": 65,
+    "reviews": 320,
+    "ratingAvg": 4.2,
+    "downloads": 9800,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?8",
+    "title": "TravelMate",
+    "companyName": "WanderWorks",
+    "id": 8,
+    "description": "Plan trips and get AI-based travel recommendations.",
+    "size": 95,
+    "reviews": 870,
+    "ratingAvg": 4.4,
+    "downloads": 43000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "StudyHub",
+    "companyName": "Brainy",
+    "id": 9,
+    "description": "Collaborative study platform with quizzes.",
+    "size": 80,
+    "reviews": 650,
+    "ratingAvg": 4.1,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 190 },
+      { "name": "5 star", "count": 220 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "Newsly",
+    "companyName": "InfoStream",
+    "id": 10,
+    "description": "AI-curated personalized news feed.",
+    "size": 45,
+    "reviews": 420,
+    "ratingAvg": 3.9,
+    "downloads": 13500,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?11",
+    "title": "CalmSpace",
+    "companyName": "MindCare",
+    "id": 11,
+    "description": "Meditation and sleep stories for better rest.",
+    "size": 70,
+    "reviews": 920,
+    "ratingAvg": 4.5,
+    "downloads": 49000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?12",
+    "title": "WorkHive",
+    "companyName": "CollabSoft",
+    "id": 12,
+    "description": "Remote team collaboration made simple.",
+    "size": 110,
+    "reviews": 1340,
+    "ratingAvg": 4.6,
+    "downloads": 76000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?13",
+    "title": "GameBox",
+    "companyName": "PlayLabs",
+    "id": 13,
+    "description": "Casual games collection in one app.",
+    "size": 220,
+    "reviews": 3100,
+    "ratingAvg": 4.3,
+    "downloads": 185000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?14",
+    "title": "ShopSmart",
+    "companyName": "RetailPro",
+    "id": 14,
+    "description": "Smart shopping deals and coupons app.",
+    "size": 60,
+    "reviews": 480,
+    "ratingAvg": 4.0,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?15",
+    "title": "CryptoWatch",
+    "companyName": "BlockLabs",
+    "id": 15,
+    "description": "Real-time cryptocurrency tracker and alerts.",
+    "size": 85,
+    "reviews": 1150,
+    "ratingAvg": 4.2,
+    "downloads": 64000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?16",
+    "title": "DocScan+",
+    "companyName": "OfficeAI",
+    "id": 16,
+    "description": "Scan, OCR, and save documents securely.",
+    "size": 57,
+    "reviews": 740,
+    "ratingAvg": 4.3,
+    "downloads": 34000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?17",
+    "title": "RideShare+",
+    "companyName": "UrbanGo",
+    "id": 17,
+    "description": "Affordable ridesharing with carpooling options.",
+    "size": 130,
+    "reviews": 2890,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1540 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?18",
+    "title": "MusicMix",
+    "companyName": "AudioLabs",
+    "id": 18,
+    "description": "Stream and mix your favorite music.",
+    "size": 190,
+    "reviews": 4100,
+    "ratingAvg": 4.6,
+    "downloads": 230000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?19",
+    "title": "Weatherly",
+    "companyName": "SkyTech",
+    "id": 19,
+    "description": "Accurate weather forecasts with radar maps.",
+    "size": 44,
+    "reviews": 520,
+    "ratingAvg": 4.0,
+    "downloads": 18500,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?20",
+    "title": "SecureVault",
+    "companyName": "SafeTech",
+    "id": 20,
+    "description": "Password manager and secure storage.",
+    "size": 68,
+    "reviews": 870,
+    "ratingAvg": 4.5,
+    "downloads": 46000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 360 }
+    ]
+  }
+]
