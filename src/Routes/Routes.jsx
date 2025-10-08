@@ -29,6 +29,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'installation',
+                loader: () => fetch('/apps_data.json'),
                 Component: Installation,
             }
         ]
