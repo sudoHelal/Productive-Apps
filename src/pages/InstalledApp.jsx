@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
 
-const InstalledApp = ({app}) => {
+const InstalledApp = ({app,handleAppRemove}) => {
     const {image,downloads,title,reviews} = app;
     console.log(app)
     return (
@@ -17,7 +17,7 @@ const InstalledApp = ({app}) => {
                     </div>
                 </div>
             </div>
-            <button className="btn bg-[#00D390] text-white rounded-lg">Uninstall</button>
+            <button onClick={() => handleAppRemove(app)} className="btn bg-[#00D390] text-white rounded-lg">Uninstall</button>
         </div>
     );
 };
