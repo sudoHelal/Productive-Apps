@@ -4,6 +4,8 @@ import downloadIcon from '../assets/icon-downloads.png'
 import ratingsIcon from '../assets/icon-ratings.png'
 import reviewIcon from '../assets/icon-review.png'
 import { Bar, BarChart, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import { ToastContainer } from "react-toastify";
+import { addToStoredDB } from '../utility/addToInstallDB';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -11,10 +13,13 @@ const AppDetails = () => {
     const data = useLoaderData();
     const eachApp = data.find(app => app.id === appId);
     const { title, image,ratings, downloads,description, ratingAvg, reviews, companyName } = eachApp;
-
+    const hadleAddToInstall = (id) =>{
+        addToStoredDB(id);
+    }
     console.log(id, data);
     return (
         <div className='max-w-7xl mx-auto  mt-[40px] lg:mt-[80px] '>
+             <ToastContainer />
             <div className='flex lg:gap-10 border-b border-[#dadddf] py-10  gap-5'>
                 <div>
                 <img src={image} alt="" />
@@ -36,14 +41,14 @@ const AppDetails = () => {
                     <h3 className='text-4xl text-[#001931] font-bold'>{ratingAvg}</h3>
                 </div>
                 <div className='space-y-2'>
-                    <img src={downloadIcon} alt="" />
+                    <img src={reviewIcon} alt="" />
                     <p className='text-[#001931]'> Total Reviews</p>
                     <h3 className='text-4xl text-[#001931] font-bold'>{reviews}</h3>
                 </div>
 
             </div>
             <div className='flex justify-center items-center mt-[45px]'>
-                <button className='py-5 px-4 bg-[#00d390] text-white rounded-lg'>Install Now (291 MB)</button>
+                <button onClick={() => hadleAddToInstall(id)} className='py-5 px-4 bg-[#00d390] text-white rounded-lg'>Install Now (291 MB)</button>
             </div>
             </div>
             </div>
