@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../assets/icon-downloads.png'
 import ratingsIcon from '../assets/icon-ratings.png'
@@ -11,10 +11,12 @@ const AppDetails = () => {
     const { id } = useParams();
     const appId = parseInt(id);
     const data = useLoaderData();
+    const [isClicked, setIsClicked] = useState(false);
     const eachApp = data.find(app => app.id === appId);
     const { title, image,ratings, downloads,description, ratingAvg, reviews, companyName } = eachApp;
     const hadleAddToInstall = (id) =>{
         addToStoredDB(id);
+        setIsClicked(true);
     }
     console.log(id, data);
     return (
@@ -48,7 +50,7 @@ const AppDetails = () => {
 
             </div>
             <div className='flex justify-center items-center mt-[45px]'>
-                <button onClick={() => hadleAddToInstall(id)} className='py-5 px-4 bg-[#00d390] text-white rounded-lg'>Install Now (291 MB)</button>
+                <button disabled={isClicked} onClick={() => hadleAddToInstall(id)} className='py-5 px-4 bg-[#00d390] text-white rounded-lg'>{isClicked ? "Uninstall" : "Install Now (291 MB)"}</button>
             </div>
             </div>
             </div>
