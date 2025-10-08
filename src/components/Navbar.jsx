@@ -21,7 +21,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='flex items-center gap-2'>
-                    <img className='h-[40px]' src={navBarLogo} alt="" />
+                    <Link to='/'><img className='h-[40px]' src={navBarLogo} alt="" /></Link>
                     <Link to='/' className="text-xl bg-gradient-to-r from-indigo-500 to-pink-600
       bg-clip-text text-transparent font-bold">HERO.OI</Link>
                 </div>
