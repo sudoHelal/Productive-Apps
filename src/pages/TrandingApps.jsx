@@ -3,7 +3,7 @@ import TrandingApp from './TrandingApp';
 import { Link } from 'react-router';
 
 const TrandingApps = ({appsData}) => {
-    console.log(appsData);
+   
     return (
         <div className='max-w-7xl mx-auto pb-[80px]'>
             <div className='flex flex-col justify-center items-center pb-10 space-y-4'>
