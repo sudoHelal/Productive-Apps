@@ -7,9 +7,9 @@ const App = ({app}) => {
     const {id,title,image,ratingAvg,downloads} = app;
     return (
         <Link to={`/appDetails/${id}`}>
-            <div className='bg-[#ffffff] lg:p-4 p-2 rounded-lg'>
+            <div className='bg-[#ffffff] lg:p-4 md:p-2 p-2 max-w-sm mx-auto w-full   rounded-lg'>
             <div className='flex justify-center items-center'>
-                <img src={image} className='rounded-lg' alt="" />
+                <img src={image} className='rounded-lg w-full' alt="" />
             </div>
             <div className='space-y-4'>
                 <h3 className='lg:mt-3 text-xl font-medium'>{title}</h3>

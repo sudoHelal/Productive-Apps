@@ -16,8 +16,8 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/apps'>Apps</NavLink></li>
-                    <li><NavLink to='/installation'>Installation</NavLink></li>
+                        <li><NavLink to='/apps'>Apps</NavLink></li>
+                        <li><NavLink to='/installation'>Installation</NavLink></li>
                     </ul>
                 </div>
                 <div className='flex items-center gap-2'>
@@ -28,11 +28,23 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/apps'>Apps</NavLink></li>
-                    <li><NavLink to='/installation'>Installation</NavLink></li>
-                    
-                    
+                    <li><NavLink to='/'
+                        className={({ isActive }) =>
+                            isActive ? "text-[#632ee3] font-bold border-b-2 border-[#632ee3]" : "text-gray-700"
+                        }
+                    >Home</NavLink></li>
+                    <li><NavLink to='/apps'
+                        className={({ isActive }) =>
+                            isActive ? "text-[#632ee3] font-bold border-b-2 border-[#632ee3]" : "text-gray-700"
+                        }
+                    >Apps</NavLink></li>
+                    <li><NavLink to='/installation'
+                        className={({ isActive }) =>
+                            isActive ? "text-[#632ee3] font-bold border-b-2 border-[#632ee3]" : "text-gray-700"
+                        }
+                    >Installation</NavLink></li>
+
+
                 </ul>
             </div>
             <div className="navbar-end">

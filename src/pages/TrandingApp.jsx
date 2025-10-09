@@ -8,9 +8,9 @@ const TrandingApp = ({apps}) => {
 
     return (
         <Link to={`/appDetails/${id}`}>
-            <div className='bg-[#ffffff] p-4 rounded-lg'>
+            <div className='bg-[#ffffff] lg:p-4 w-full max-w-sm mx-auto md:p-2 p-2 shadow  rounded-lg'>
             <div className='flex justify-center items-center'>
-                <img src={image} className='rounded-lg' alt="" />
+                <img src={image} className='rounded-lg w-full' alt="" />
             </div>
             <div className='space-y-4'>
                 <h3 className='mt-3 text-xl font-medium'>{title}</h3>
