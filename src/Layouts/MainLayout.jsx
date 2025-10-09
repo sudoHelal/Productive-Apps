@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import { Outlet, useNavigation } from 'react-router';
 import Footer from '../components/Footer';
 import Spinner from '../components/Spinner';
+import { ToastContainer } from 'react-toastify';
 
 const MainLayout = () => {
     const navigation = useNavigation();
@@ -13,6 +14,7 @@ const MainLayout = () => {
                 navigation.state === 'loading' ? <Spinner /> :<Outlet />
             }
             <Footer />
+            <ToastContainer />
         </div>
     );
 };

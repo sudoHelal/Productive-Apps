@@ -13,7 +13,7 @@ const getStoredApp = () =>{
 const addToStoredDB = (id) =>{
     const     storedAppData = getStoredApp();
     if(storedAppData.includes(id)){
-        toast('App already install');
+        toast.success('App already install');
     }
     else{
         storedAppData.push(id);

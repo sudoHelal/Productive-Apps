@@ -4,8 +4,9 @@ import downloadIcon from '../assets/icon-downloads.png'
 import ratingsIcon from '../assets/icon-ratings.png'
 import reviewIcon from '../assets/icon-review.png'
 import { Bar, BarChart, Legend, Tooltip, XAxis, YAxis } from 'recharts';
-import { ToastContainer } from "react-toastify";
+
 import { addToStoredDB } from '../utility/addToInstallDB';
+
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -21,7 +22,7 @@ const AppDetails = () => {
     console.log(id, data);
     return (
         <div className='max-w-7xl mx-auto  mt-[40px] lg:mt-[80px] '>
-             <ToastContainer />
+             
             <div className='flex lg:gap-10 border-b border-[#dadddf] py-10  gap-5'>
                 <div>
                 <img src={image} alt="" />
