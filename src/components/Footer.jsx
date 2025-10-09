@@ -4,7 +4,7 @@ import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
 import { AiOutlineInstagram } from 'react-icons/ai';
 const Footer = () => {
     return (
-        <footer className="bg-[#001931]">
+        <footer className="bg-[#001931] mt-auto">
           <div className='max-w-7xl mx-auto py-[42px] flex justify-between items-center border-b border-[#122940] pb-3'>
               <div className='flex gap-1 items-center'>
                 <img src={footerLogoImg} className='h-[40px]' alt="" />
