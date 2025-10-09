@@ -20,7 +20,7 @@ const Apps = () => {
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 mt-[50px] grid-cols-1 gap-8'>
                 {
-                   searchedApps.length > 0 ? ( searchedApps.map(app => <App key={app.id} app={app} />)): (<div className='flex justify-center items-center h-40'><p className="text-gray-500">No App Found</p></div>)
+                   searchedApps.length > 0 ? ( searchedApps.map(app => <App key={app.id} app={app} />)): (<div className='flex justify-center items-center h-[60vh]'><h2 className="text-gray-500 text-4xl font-bold">No App Found</h2></div>)
                 }
             </div>
         </div>
