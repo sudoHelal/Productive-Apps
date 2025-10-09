@@ -51,7 +51,7 @@ const AppDetails = () => {
 
             </div>
             <div className='flex justify-center items-center mt-[45px]'>
-                <button disabled={isClicked} onClick={() => hadleAddToInstall(id)} className='py-5 px-4 bg-[#00d390] text-white rounded-lg'>{isClicked ? "Uninstall" : "Install Now (291 MB)"}</button>
+                <button disabled={isClicked} onClick={() => hadleAddToInstall(id)} className='py-5 px-4 bg-[#00d390] text-white rounded-lg'>{isClicked ? "installed" : "Install Now (291 MB)"}</button>
             </div>
             </div>
             </div>
